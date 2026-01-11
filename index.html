@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V༏kꫝs𝔥 Kumar × Kgs Course List</title>
+    <meta name="description" content="Browse our latest courses and batches">
+    <meta name="keywords" content="courses, education, learning, batches">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #4F46E5; /* Indigo 600 */
+            --secondary-color: #EEF2FF; /* Indigo 50 */
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+        }
+    }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen text-[var(--text-main)]">
+    <div id="root"></div>
+    
+    <!-- Load Data and Components -->
+    <script type="text/babel" src="data/courses.js"></script>
+    <script type="text/babel" src="components/SearchBar.js"></script>
+    <script type="text/babel" src="components/CourseCard.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
